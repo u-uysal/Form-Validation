@@ -51,8 +51,9 @@ function checkInputs() {
         setErrorFor(password2, 'Passwords does not match');
     } else {
         setSuccessFor(password2);
+        alert("You have successfully logged in")
     }
-    alert("You have successfully logged in")
+    
 }
 
 function setErrorFor(input, message) {
